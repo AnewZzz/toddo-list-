@@ -87,19 +87,24 @@ main{
 #tasks .task{
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
 
+#tasks .task .containte{
+    flex: 1 1 0%
+}
+
 #tasks .task .containte .text{
     color: blue;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     width: 100%;
     display: block;
     transition: 0.04s;
 }
+
 
 #tasks .task .actions{
     display: flex;
